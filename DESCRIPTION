@@ -1,0 +1,18 @@
+Package: eurosat
+Title: EuroSAT: Useful methods to handle EuroSAT (MS) dataset
+Version: 0.0.1
+Authors@R: 
+    person("Felipe", "Carlos", , "efelipecarlos@gmail.com", role = c("aut", "cre"))
+Description: This R package simplifies the process of downloading and utilizing 
+             the EuroSAT dataset, offering an easy-to-use interface that allows
+             users to focus on their analysis rather than data management tasks.
+License: MIT + file LICENSE
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.1
+Imports: 
+    data.table,
+    fs
+Suggests: 
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3
